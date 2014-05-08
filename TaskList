@@ -1,0 +1,24 @@
+Tasklist:
+
+1) Silvio:
+	a) Mejorar la GUI. Explicitame un poquito esto mejor guido jajaj, es muy amplio :P
+
+DONE ;) Las clases main.runnable.gfx.Explosion y main.runnable.gfx.Shoot deberían ser parte del paquete model,
+		y la implementación del método run() deberían ser clases aparte en main.runnable.gfx. Es decir, hay
+		que separar el modelo del runnable.
+
+	c) Hacer Javadocs de clases, métodos y atributos.
+
+HICE UNA CLASE EN SERVICES FIJATE Cambiar forma de hacer logs (podes mirar el main de la aplicación donde está todo bien ejemplificado).
+		También te podes fijar en el Core Java que aparece.
+
+2) Guido:
+	a) Mejorar el manejo de hilos.
+	b) Validar temas de AI:
+		- no se debe permitir poner una torre de modo que no exista camino de salida.
+	c) Se deben enviar el uso de bonus entre los jugadores.
+	d) Los enemigos deben salir desde las mismas coordenadas en cada uno de los extremos.
+	e) No se debe poder posicionar torres sobre la franja blanca de salida de enemigos.
+	f) Hacer Javadocs de clases, métodos y atributos.
+	g) Una de las puntas se debe encargar de realizar los cálculos y enviar el estado de los enemigos, las torres
+		y sus acciones, constantemente.
